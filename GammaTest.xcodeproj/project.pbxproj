@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFD8E7281BCA6A3D00BCC80A /* brightness.c in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E7261BCA6A3D00BCC80A /* brightness.c */; settings = {ASSET_TAGS = (); }; };
-		AFD8E72C1BCA6D4000BCC80A /* solar.c in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E72A1BCA6D4000BCC80A /* solar.c */; settings = {ASSET_TAGS = (); }; };
-		AFD8E7331BCA711300BCC80A /* GammaController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E7321BCA711300BCC80A /* GammaController.m */; settings = {ASSET_TAGS = (); }; };
+		AFD8E7281BCA6A3D00BCC80A /* brightness.c in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E7261BCA6A3D00BCC80A /* brightness.c */; };
+		AFD8E72C1BCA6D4000BCC80A /* solar.c in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E72A1BCA6D4000BCC80A /* solar.c */; };
+		AFD8E7331BCA711300BCC80A /* GammaController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD8E7321BCA711300BCC80A /* GammaController.m */; };
 		B92DD5F91BB33DD700DC6E8F /* BackBoardServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92DD5F81BB33DD700DC6E8F /* BackBoardServices.framework */; };
 		B96BB6511B38DAF500F1C3AE /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96BB6501B38DAF500F1C3AE /* Launch Screen.xib */; };
 		B96BB6541B38DDA500F1C3AE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96BB6531B38DDA500F1C3AE /* IOKit.framework */; };
 		B96BB6561B38DDB600F1C3AE /* IOMobileFramebuffer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96BB6551B38DDB600F1C3AE /* IOMobileFramebuffer.framework */; };
-		B9B2BD3A1BA7B86000514B7A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B2BD391BA7B86000514B7A /* Storyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B9B2BD3A1BA7B86000514B7A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B2BD391BA7B86000514B7A /* Storyboard.storyboard */; };
 		B9DCA8881BBDF65900C449B0 /* SpringBoardServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DCA8871BBDF65900C449B0 /* SpringBoardServices.framework */; };
 		B9E5364B1B38D90D0097BF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E5364A1B38D90D0097BF90 /* main.m */; };
 		B9E5364E1B38D90D0097BF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E5364D1B38D90D0097BF90 /* AppDelegate.m */; };
@@ -288,12 +288,12 @@
 		B9E5363E1B38D90D0097BF90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Thomas Finch";
 				TargetAttributes = {
 					B9E536451B38D90D0097BF90 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = WV4RMF773Y;
+						DevelopmentTeam = 5R2GXTJLPJ;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -433,7 +433,6 @@
 		B9E5365E1B38D90D0097BF90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -443,9 +442,9 @@
 					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks",
 				);
 				INFOPLIST_FILE = GammaTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.caspercl.GammaTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woogadoo.GammaRays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +454,6 @@
 		B9E5365F1B38D90D0097BF90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -465,9 +463,9 @@
 					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks",
 				);
 				INFOPLIST_FILE = GammaTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.caspercl.GammaTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woogadoo.GammaRays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
